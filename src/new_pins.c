@@ -2213,7 +2213,7 @@ void PIN_ticks(void* param)
 
 	int debounceMS;
 	if (CFG_HasFlag(OBK_FLAG_BTN_INSTANTTOUCH)) {
-		debounceMS = 20;
+		debounceMS = 10;
 	}
 	else {
 		debounceMS = 60;
